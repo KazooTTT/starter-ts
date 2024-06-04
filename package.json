@@ -45,7 +45,8 @@
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "template-replace": "nlx tsx scripts/replace.ts"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.1",
